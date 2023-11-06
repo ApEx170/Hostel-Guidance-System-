@@ -10,8 +10,9 @@ public  class queryHandler {
 
     public static ArrayList<Hostel> queryResult(){
 
-        Sorter sort  = new Sorter("Distance");
-//        Sorter sort  = new Sorter("Price");
+//        Sorter sort  = new Sorter("Distance");
+        Sorter sort  = new Sorter("Price");
+
 
       ArrayList<Hostel> list = con_file.getHostelInfo();
       sort.mergeSort(list,0,list.size() -1);

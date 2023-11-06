@@ -3,6 +3,7 @@ package com.project_minor.service;
 import com.project_minor.DAO.con_file;
 import com.project_minor.model.Hostel;
 import com.project_minor.service.Sorter;
+import com.project_minor.service.Searcher;
 
 import java.util.ArrayList;
 
@@ -16,7 +17,7 @@ public  class queryHandler {
 
       ArrayList<Hostel> list = con_file.getHostelInfo();
       sort.mergeSort(list,0,list.size() -1);
-        return list;
+        return Searcher.searchResult(list,170,90);
 
     }
 

@@ -16,7 +16,7 @@ public class con_file {
 
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            return objectMapper.readValue(new File("D:\\GIT\\Minor_project\\Minor_project\\src\\main\\resources\\static\\dummy_hostel.json"),
+            return objectMapper.readValue(new File("D:\\[Minor project]\\Minor_Project(GIT)\\src\\main\\resources\\static\\dummy_hostel.json"),
                     new TypeReference<ArrayList<Hostel>>() {});
 //            for (Hostel hotel : hotels) {
 //                System.out.println("Name: " + hotel.getName());

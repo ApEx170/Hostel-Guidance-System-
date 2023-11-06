@@ -16,7 +16,7 @@ public  class queryHandler {
       ArrayList<Hostel> list = con_file.getHostelInfo();
       sort.mergeSort(list,0,list.size() -1);
         return list;
-        
+
     }
 
 

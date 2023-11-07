@@ -1,6 +1,6 @@
 # Hostel-Guidance-System
 
-The Hostel Guidance System project aims to develop a user-friendly, effective, and trustworthy platform that helps tourists, students, and anyone else looking for hostel lodgings discover, select, and reserve appropriate lodging. The following goals are intended to be addressed by the project:
+The Hostel Guidance System project aims to develop a user-friendly, effective, and trustworthy platform that helps tourists, students, and anyone else looking for hostel lodgings discover, select, and reserve appropriate lodging. The following goals are intended to be addressed by the project
     
     a.	Simplify Hostel Search: Give consumers a clear, user-friendly interface so they can quickly search, filter, and select hostels that meet their needs and preferences.
     b.	Effective Reservation Procedure: Facilitate users' ability to easily make reservations by offering a simple, safe, and user-friendly reservation procedure.
